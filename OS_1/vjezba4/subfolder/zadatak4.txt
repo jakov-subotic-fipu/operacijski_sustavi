@@ -1,0 +1,13 @@
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ mkdir vjezba4
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ mkdir vjezba4/subfolder
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ cd vjezba4
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba4$ touch $HOSTNAME
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba4$ mv $HOSTNAME $USER
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba4$ ls
+jakov  subfolder
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba4$ mv $USER subfolder/
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba4$ cd ~
+jakov@fedora:~$ pwd
+/home/jakov
+jakov@fedora:~$ rm /home/jakov/Github/operacijski_sustavi/OS_1/vjezba4/subfolder/$USER
+jakov@fedora:~$ 
