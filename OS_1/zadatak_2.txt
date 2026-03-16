@@ -1,0 +1,15 @@
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ mkdir vjezba2
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ touch vjezba2/file.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ ls vjezba2/
+file.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ cd vjezba2
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba2$ cp file.txt file_copy.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba2$ ls
+file_copy.txt  file.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba2$ rm file.txt 
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba2$ cd ~
+jakov@fedora:~$ rm Github/operacijski_sustavi/OS_1/vjezba2
+rm: cannot remove 'Github/operacijski_sustavi/OS_1/vjezba2': Is a directory
+jakov@fedora:~$ 
+
+Ne mogu obrisat jer je to direktorij a ne datoteka 
