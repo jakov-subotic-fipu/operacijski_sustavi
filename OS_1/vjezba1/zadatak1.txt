@@ -1,0 +1,10 @@
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ pwd
+/home/jakov/Github/operacijski_sustavi/OS_1
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ ls
+vjezba1  vjezba2  zadatak_2.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ mkdir vjezba1
+mkdir: cannot create directory ‘vjezba1’: File exists
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ cd vjezba1
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba1$ touch README.md
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba1$ cd ~
+jakov@fedora:~$ 

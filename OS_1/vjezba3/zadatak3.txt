@@ -1,0 +1,22 @@
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ mkdir vjezba3
+jakov@fedora:~/Github/operacijski_sustavi/OS_1$ cd vjezba3
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ mkdir backup
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ touch notes.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ touch todo.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ touch script.sh
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ ls
+backup  notes.txt  script.sh  todo.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ cp notes.txt backup/notes_copy.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ cp script.sh backup/script_copy.sh
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ cp todo.txt backup/todo_copy.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ rm script.sh
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ ls
+backup  notes.txt  todo.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ mkdir backup/$USER
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3$ cd backup
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3/backup$ ls
+jakov  notes_copy.txt  script_copy.sh  todo_copy.txt
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3/backup$ mv notes_copy.txt $USER
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3/backup$ mv script_copy.sh $USER
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3/backup$ mv todo_copy.txt $USER
+jakov@fedora:~/Github/operacijski_sustavi/OS_1/vjezba3/backup$ 
